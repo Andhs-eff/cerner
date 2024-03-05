@@ -15,7 +15,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-	document.getElementById('launchUrl').value(window.location.href);
+	document.getElementById('launchUrl').value = window.location.href;
 });
 document.getElementById('launchUrlForm').onsubmit = function(event) {
     event.preventDefault(); // Prevent form from submitting the traditional way
